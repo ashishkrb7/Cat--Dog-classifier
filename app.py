@@ -26,15 +26,12 @@ def model_predict(img_path, model):
 
     # Preprocessing the image
     x = image.img_to_array(img)
-    x = np.true_divide(x, 255)
-    ## Scaling
-    # x=x/255
+    x = np.true_divide(x, 255)# Scaling
     x = np.expand_dims(x, axis=0)
 
     x = preprocess_input(x)
 
     preds = model.predict(x)[0]
-    # preds=np.argmax(preds, axis=1)
     
     if preds>0.5:
         preds="Dog"

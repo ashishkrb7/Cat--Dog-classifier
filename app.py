@@ -53,6 +53,7 @@ def upload():
     # Get the file from post request
     f = request.files['file']
     # Save the file to ./uploads
+    if not os.path.isdir("uploads"):os.makedirs("uploads")
     basepath = os.path.dirname(__file__)
     file_path = os.path.join(basepath, 'uploads', secure_filename(f.filename))
     f.save(file_path)

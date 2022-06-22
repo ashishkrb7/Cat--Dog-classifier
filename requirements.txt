@@ -1,5 +1,5 @@
 # '3.7.7 (default, Mar 23 2020, 23:19:08) [MSC v.1916 64 bit (AMD64)]'
-numpy==1.19.0 # NumPy is the fundamental package for array computing with Python
+numpy==1.22.0 # NumPy is the fundamental package for array computing with Python
 pandas==0.25.3 # Powerful data structures for data analysis, time series, and statistics
 keras==2.3.1 # Deep Learning for humans
 sklearn==0.0 # A set of python modules for machine learning and data mining

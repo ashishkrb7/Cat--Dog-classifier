@@ -7,7 +7,7 @@ tensorflow==2.2.0 # TensorFlow is an open source machine learning framework for 
 matplotlib==3.1.3 # Python plotting package
 Flask==1.1.1 # A simple framework for building complex web applications
 # Basic packages required in Heroku
-certifi==2020.6.20
+certifi==2022.12.7
 chardet==3.0.4
 click==7.1.2
 idna==2.10
